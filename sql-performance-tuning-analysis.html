@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Site made with Mobirise Website Builder v3.12.1, http://geopits.com/ -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v3.12.1, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+  <meta name="description" content="Website">
+  <title>SQL Server Performance Tuning and Analysis | GeoPITS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
+  <link rel="stylesheet" href="assets/mobirise/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('6bbeumamfv5b');
+</script>
+<!-- End of Async Drift Code -->
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100125040-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--transparent mbr-navbar--sticky mbr-navbar--auto-collapse" id="ext_menu-1d">
+    <div class="mbr-navbar__section mbr-section">
+        <div class="mbr-section__container container">
+            <div class="mbr-navbar__container">
+                <div class="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
+                    <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
+                        <span class="mbr-brand__logo"><a href="http://geopits.com/"><img src="assets/images/geopits-logo.png" class="mbr-navbar__brand-img mbr-brand__img" alt="Mobirise"></a></span>
+                        <span class="mbr-brand__name"><a class="mbr-brand__name text-white" href="index.html"></a></span>
+                    </span>
+                </div>
+                <div class="mbr-navbar__hamburger mbr-hamburger"><span class="mbr-hamburger__line"></span></div>
+                <div class="mbr-navbar__column mbr-navbar__menu">
+                    <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
+                        <div class="mbr-navbar__column">
+                            <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="remotesupportdba.html" style="letter-spacing: 0px;margin-right:-35px;margin-left:-15px;">SQL DBA REMOTE SUPPORT</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="server.html" style="letter-spacing: 0px;margin-right:-35px;">SQL DBA CONSULTING</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="training.html" style="letter-spacing: 0px;margin-right:-35px;">SQL SERVER TRAINING<br></a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="about.html" style="letter-spacing: 0px;margin-right:-10px;">ABOUT US</a></li>  </ul>                            
+                            <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-danger" href="Contact Geopits.html" style="letter-spacing: 1px;margin-right: 0px;background-color: #2db1c0;border-color: #2db1c0;"">CONTACT US</a></li></ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="engine"><a rel="external" href="http://geopits.com/">Geopits</a></section><section class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted mbr-parallax-background mbr-after-navbar" id="header1-1e" style="background-image: url(assets/images/mbr-1-2000x1333.jpg);">
+    <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-center">
+        <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(34, 34, 34);"></div>
+        <div class="mbr-box__container mbr-section__container container">
+            <div class="mbr-box mbr-box--stretched"><div class="mbr-box__magnet mbr-box__magnet--center-center">
+                <div class="row"><div class=" col-sm-8 col-sm-offset-2">
+                    <div class="mbr-hero animated fadeInUp">
+                        <h1 class="mbr-hero__text" style="font-size:32px;">SQL SERVER PERFORMACE TUNING &amp; ANALYSIS</h1>
+                        <p class="mbr-hero__subtext">We offer customized solutions catering to your needs &amp; processes in a practical way that best suits your scale.</p>
+                    </div>
+                    <div class="mbr-buttons btn-inverse mbr-buttons--center"><a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay" href="trainingcorporate.html#header3-1f">KNOW MORE</a> <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="Contact Geopits.html">CONTACT US</a></div>
+                </div></div>
+            </div></div>
+        </div>
+        <div class="mbr-arrow mbr-arrow--floating text-center">
+            <div class="mbr-section__container container">
+                <a class="mbr-arrow__link" href="#header3-1f"><i class="glyphicon glyphicon-menu-down"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-1f">
+    <div class="mbr-section__container container mbr-section__container--first">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">SQL Server Performance Tuning &amp; Analysis</h3>
+                <p class="mbr-header__subtext">The best in-class performance tuning and analysis partner for your organization.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-1g">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>For any application, scalability and performance have to be built in from the very beginning. This makes sure the application is high performing once it is rolled out. We at GeoPITS, make sure to give concrete performance recommendations at the database environment level right when it is set up. We also investigate performance impacting issues and drill down to the root cause. Key factors are analyzed to generate suggestions and we implement the same. This gives our customers, the ability to leverage existing infrastructure for increasing data demands./p><p>The performance tuning and analysis process is sliced into the following modules at GeoPITS :</p>
+            <p><br></p>
+            <ul>
+              <li>Optimizing the SQL Server Hardware</li>
+              <li>Optimizing the SQL Server configuration setting</li>
+              <li>Optimizing the application code for SQL Server</li>
+              <li>SQL Server Integration Services Training</li>
+              <li>SQL Server Performance Tuning Training</li>
+              <li>SQL Server Upgrade Training</li>
+              <li>Optimizing the database design</li>
+              <li>Query optimization</li>
+            </ul>
+            <p><br></p>
+            <p><br></p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="buttons1-1h">
+    <div class="mbr-section__container container mbr-section__container--last">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="mbr-buttons mbr-buttons--center"><a class="mbr-buttons__btn btn btn-lg btn-danger" href="Contact Geopits.html">CONTACT US NOW</a> <a class="mbr-buttons__btn btn btn-lg btn-default" href="about.html">READ ABOUT US</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section mbr-section--relative mbr-section--short-paddings" id="msg-box1-1i" style="background-color: rgb(60, 60, 60);">
+
+    
+
+    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 60px; padding-bottom: 60px;">
+        <div class="row">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-left mbr-section__left col-sm-8">
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                            <h3 class="mbr-header__text">LET'S TALK BUSINESS</h3>
+                        </div>
+                    </div>
+                    <div class="mbr-section__container">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><p>We are friendly, &nbsp;We assure you that your call want land on a ridiculously long recorded phone message ! You will directly talk with our DBA Experts &amp; Business Heads !</p></div>
+                    </div>
+                </div>
+                <div class="mbr-box__magnet mbr-box__magnet--top-left mbr-section__right col-sm-4">
+                    <div class="mbr-section__container">
+                        <div class="mbr-buttons mbr-buttons--auto-align mbr-buttons--top mbr-buttons--left"><a class="mbr-buttons__btn btn btn-lg btn-danger" href="Contact Geopits.html">CONTACT US</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="contacts1-1j" style="background-color: rgb(60, 60, 60);">
+    
+    <div class="mbr-section__container container">
+        <div class="mbr-contacts mbr-contacts--wysiwyg row" style="padding-top: 45px; padding-bottom: 45px;">
+            <div class="col-sm-4">
+                <div><a href="http://geopits.com/" class="mbri-mobirise mbr-iconfont mbr-iconfont-contacts1"></a></div>
+            </div>
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="mbr-contacts__text"><strong>Geo Platinum IT Services</strong><br>No 3, 5th Cross, 2nd Floor,<br> P &amp; T Layout, Horamavu,<br> Kalyan Nagar Post,<br> Bengaluru, Karnataka 560043<br><strong>Phone: +91-960-015-3444<br></strong></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="mbr-contacts__text"></p><p><strong>CONTACTS</strong><br></p>Inquiry:&nbsp;info@geopits.com<br><p>Sales: sales@geopits.com<br>Tech Support: support@geopits.com<br>Careers: careers@geopits.com<br><br><br></p><p></p>
+                    </div>
+                    <div class="col-sm-4"><p class="mbr-contacts__text"><strong>Social Links</strong></p><ul class="mbr-contacts__list"><li><a href="https://www.facebook.com/geopitsOfficial/" style="color:#9c9c9c;" target="_blank">Facebook</a></li><li><a href="https://www.linkedin.com/company/geopits" style="color:#9c9c9c;" target="_blank">Linkedin</a></li><li><a href="https://twitter.com/GeoPITS_DBAs" style="color:#9c9c9c;" target="_blank">Twitter</a></li></ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="mbr-section mbr-section--relative mbr-section--fixed-size" id="footer1-1k" style="background-color: rgb(68, 68, 68);">
+    
+    <div class="mbr-section__container container">
+        <div class="mbr-footer mbr-footer--wysiwyg row" style="padding-top: 36.900000000000006px; padding-bottom: 36.900000000000006px;">
+            <div class="col-sm-12">
+                <p class="mbr-footer__copyright">Copyright (c) 2017 Geo Platinum IT Services. . Terms of Use . Privacy Policy</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="assets/jarallax/jarallax.js"></script>
+  <script src="assets/mobirise/js/script.js"></script>
+  
+  
+</body>
+</html>

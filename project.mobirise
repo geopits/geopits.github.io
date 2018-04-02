@@ -1,0 +1,2776 @@
+{
+  "settings": {
+    "name": "Geopits - Your Favourite DBA Experts ",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {}
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 90,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Geopits - Your DBA Experts",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "19px",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/unnamed-2-150x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://geopits.com/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobile2",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GeoPITS&nbsp;</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"server.html\">SQL SERVER CONSULTING</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"training.html\">SQL SERVER TRAINING<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT US</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a></li>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_styles": {
+            "SPAN": {
+              "font-size": "32px"
+            },
+            "H1": {
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/sql-server-2012-rc0-available-cindy-gross-small-bites-of-big-data-2000x1250.jpg",
+                "contentAlign": "right",
+                "overlay": true,
+                "overlayOpacity": "0.7",
+                "showTitle": true,
+                "title": "<span style=\"color: inherit; font-family: inherit;\">BEST IN CLASS SQL SERVER SUPPORT &amp; SOLUTIONS</span><br>",
+                "showText": true,
+                "text": "Optimized SQL Server services at the most affordable cost tailor made for your requirement<br><b>We Listen. We Consult. We Educate</b>.<br>",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"server.html\" data-toolbar=\"-mbrBtnMove\">KNOW MORE</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/pexels-photo-2000x1334.png",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "0.7",
+                "showTitle": true,
+                "title": "Customized &amp; Comprehensive SQL Server Training",
+                "showText": true,
+                "text": "Pragmatic training by industrial experts to suit your needs with live demo sessions and hands-on experience. 100% customised training for corporate and individual SQL Server enthusiasts.<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">GET IN TOUCH</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/pexels-photo-2000x1333.png",
+                "contentAlign": "left",
+                "overlay": true,
+                "overlayOpacity": "0.7",
+                "showTitle": true,
+                "title": "24 x 7 SQL SERVER SUPPORT",
+                "showText": true,
+                "text": "Around the clock database support by our DBA experts. We Monitor, Manage and Maintain your databases 24x7x365.",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">GET IN TOUCH</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/pexels-photo-2000x1364.png",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "0.7",
+                "showTitle": true,
+                "title": "<span style=\"color: inherit; font-family: inherit;\">WELL-EQUIPPED TEAM</span><br>",
+                "showText": true,
+                "text": "<b>Our DBAs -</b>&nbsp;Industrial experts delivering their best for your competitive advantage.<br><b>Our trainers</b> - Certified SQL Server professionals to cater to you<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"index.html#msg-box3-3\" data-toolbar=\"-mbrBtnMove\">HIRE US</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CALL US NOW</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-1",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-article P": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-3",
+          "_params": {
+            "showCaption": "noCaption",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showMeta": false,
+            "darkBackground": false
+          },
+          "title": "GeoPITS, LET'S PLAY WITH DATABASES<br>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>GeoPITS, founded in 2013 by a team of SQL Server Database Administrators (DBAs) and SQL Server Developers skilled at creating customized Microsoft SQL Server database solutions for any business. As SQL Server DBA consultants, we deliver efficiency-enhancing SQL Server database solutions.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"about.html\" data-toolbar=\"-mbrBtnMove\">READ MORE ABOUT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "features1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showHeader": true,
+            "showSubheader": false,
+            "columns": "4",
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true
+          },
+          "headerAlign": "left",
+          "header": "WHAT DO WE DO ?",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/database-600x600.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "MS SQL SERVER CONSULTING<div><br></div>",
+          "caption1": "GeoPITS Experts offer the best in-class MS SQL Server Consulting services, with the help of cutting edge technologies and continuous updates.<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"server.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/training-600x433.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "<span style=\"color: inherit; font-family: inherit; line-height: 1.1em;\"><br></span><br><span style=\"color: inherit; font-family: inherit; line-height: 1.1em;\">MS SQL SERVER ONLINE&nbsp;</span><br>TRAINING",
+          "caption2": "We offer a dedicated &amp; customized training solution catering to your needs &amp; processes through the vast online medium to learn at your own pace.<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"trainingonline.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/training1600-600x600.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "MS SQL SERVER CORPORATE TRAINING",
+          "caption3": "GeoPITS experts offer customized training solutions catering to your needs &amp; processes in a practical way that best suits your organization.<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"trainingcorporate.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/science-classroom-icon-600x600.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "MS SQL SERVER&nbsp;CLASSROOM&nbsp;<br>TRAINING",
+          "caption4": "Unleash that deeper potential inside you with our classroom training program in a practical learning environment. Learn from the best experts in the Industry.&nbsp;<br>",
+          "button4": "<a data-app-btn=\"true\" href=\"trainingclass.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "DBA SUPPORT",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-k",
+          "_params": {
+            "imageSize": "45",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#f97352",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/microsoftsqlserver-1400x356.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "headerAlign": "left",
+          "title": "WHY CHOOSE US?",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>GeoPITS provides the ultimate array of SQL server database administration and development consulting solutions to optimize and protect your data. Since 2013 GeoPITS has focused on delivering value to customers leveraging SQL server. GeoPITS is well equipped with a skilled consultants having more than 7+ years of experience in this field.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"about.html\" data-toolbar=\"-mbrBtnMove\">KNOW MORE</a>"
+        },
+        {
+          "_inherit": "features1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "content4-m",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showHeader": true,
+            "showSubheader": true,
+            "columns": 5,
+            "showImages": false,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": false
+          },
+          "headerAlign": "left",
+          "header": "GeoPITS ADVANTAGE",
+          "subheader": "What are the perks that you get when you choose to travel with us?<br><br><br>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "images/bootstrap.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "TECHNICAL EXPERTISE<br>",
+          "caption1": "We are experts at SQL Server database administration, performance tuning, database problem-solving and in-depth SQL Server Database training.",
+          "button1": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "images/responsive.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "BEST IN-CLASS SUPPORT",
+          "caption2": "We offer 24 * 7 Support and Services for you in such a way that, even we would want to experience that ourselves. Extended services and remote recovery also offerer.",
+          "button2": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "PRECISION &amp; QUALITY",
+          "caption3": "Precision &amp; Quality plays a major part in today's Database Systems, our 4 phase process system takes care of that delivery. Quality &amp; Trust is the only path with Geopits.",
+          "button3": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "ON TIME, EVERY TIME",
+          "caption4": "We understand that time and quick turn around is an important factor in databases, our on time delivery of services and quick response time to requests have set standards in the industry.",
+          "button4": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "OPTIMIZED ARCHITECTURE",
+          "caption5": "Nothing can convince you more than a consultant person who takes critical and data driven right decision for your organisation, keeping the future growth &amp; scale in mind.",
+          "button5": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-n",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "WHY ARE YOU STILL WAITING?",
+          "text": "Trust us to make your data management easy. And we ensure to convert your experience to the best testimonial ever.<br>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">GET IN TOUCH NOW</a>"
+        },
+        {
+          "items": [
+            {
+              "text": "<p class=\"mbr-reviews__p\">\"I have been very pleased with GeoPITs’ level of expertise, responsiveness, thoroughness in managing our MS SQL Server database environment, and their ability to work effectively to resolve problems. They quickly became a valuable extension of our IT team and were our trusted resource for SQL Server-related responsibilities.\"</p>",
+              "authorName": "Sachin Patil.",
+              "authorBio": "VP, MResult Corporation"
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">\"I found everyone who worked for GeoPITS to be attentive and thoughtful, providing not only a sounding board for our ideas but also provided helpful guidance from previous project experience. . In short, I have found our experience with GeoPITS to be very positive and would recommend them without any reservation.\"</p>",
+              "authorName": "Senthil Ramasamy.",
+              "authorBio": "CTO, TheCorp."
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">\"The insights and contributions GeoPITS has made to me and my company are something I highly value. They were genuinely interested in understanding our business and helping us in our SQL Server needs. They have fully understood the intent behind our needs and offered suggestions to handle things.\"</p>",
+              "authorName": "Neeraj Ambikar.",
+              "authorBio": "Managing Director, Data Patrol Technologies"
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">\"Hired instructors from GeoPITS for multiple corporate training programs. We received very valuable feedback for the MS SQL Server database administration classes. One of the best faculty in MS SQL Server training for DBA with real time knowledge\"</p>",
+              "authorName": "Shalini.",
+              "authorBio": "VP, Mastermind consulting"
+            },
+            {
+              "text": "\"I attended their online training for SQL Server database administration and it turned out to be very useful. Many practical and hands-on guides are used for teaching the core concepts, loved the personalisation features in the modules! \"",
+              "authorName": "Sham.",
+              "authorBio": "Student, Mindbox Consulting Services"
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</p>",
+              "authorName": "John Smith",
+              "authorBio": "Developer"
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "testimonial": [
+            {
+              "text": "<p class=\"mbr-reviews__p\">\"I have been very pleased with GeoPITs’ level of expertise, responsiveness, thoroughness in managing our MS SQL Server database environment, and their ability to work effectively to resolve problems. They quickly became a valuable extension of our IT team and were our trusted resource for SQL Server-related responsibilities.\"</p>",
+              "authorName": "Sachin Patil.",
+              "authorBio": "VP, MResult Corporation"
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">\"I found everyone who worked for GeoPITS to be attentive and thoughtful, providing not only a sounding board for our ideas but also provided helpful guidance from previous project experience. . In short, I have found our experience with GeoPITS to be very positive and would recommend them without any reservation.\"</p>",
+              "authorName": "Senthil Ramasamy.",
+              "authorBio": "CTO, TheCorp."
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">\"The insights and contributions GeoPITS has made to me and my company are something I highly value. They were genuinely interested in understanding our business and helping us in our SQL Server needs. They have fully understood the intent behind our needs and offered suggestions to handle things.\"</p>",
+              "authorName": "Neeraj Ambikar.",
+              "authorBio": "Managing Director, Data Patrol Technologies"
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">\"Hired instructors from GeoPITS for multiple corporate training programs. We received very valuable feedback for the MS SQL Server database administration classes. One of the best faculty in MS SQL Server training for DBA with real time knowledge\"</p>",
+              "authorName": "Shalini.",
+              "authorBio": "VP, Mastermind consulting"
+            },
+            {
+              "text": "\"I attended their online training for SQL Server database administration and it turned out to be very useful. Many practical and hands-on guides are used for teaching the core concepts, loved the personalisation features in the modules! \"",
+              "authorName": "Sham.",
+              "authorBio": "Student, Mindbox Consulting Services"
+            }
+          ],
+          "_anchor": "testimonials1-i",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": "5",
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "header": "WHAT OUR FANTASTIC USERS SAY"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-o",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "SUBSCRIBE TO OUR NEWSLETTER FOR DBAs",
+          "form": {
+            "action": "www.senthilr.com@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">SUBSCRIBE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-g",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "LET'S TALK BUSINESS",
+          "text": "Just drop us a mail or call for any queries related to Databases, DBA &amp; Architecuture training.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-7",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/unnamed%20(2)-265x226.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<b>Geo Platinum IT Services</b><b><br></b>Phone: +91-960-015-3444<br>",
+          "text2": "<p><strong>CONTACTS</strong><br></p>Inquiry:&nbsp;info@geopits.com<br><p>Sales: sales@geopits.com<br>Tech Support: support@geopits.com<br>Careers: careers@geopits.com<br><br><br></p>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>Social Links</strong></p><ul class=\"mbr-contacts__list\"><li>Facebook</li><li>Linkedin&nbsp;</li><li>Skype&nbsp;</li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Geo Platinum IT Services. . Terms of Use . Privacy Policy"
+        }
+      ]
+    },
+    "Contact Geopits.html": {
+      "settings": {
+        "title": "Contact Us - Geopits",
+        "meta_descr": "Geopits - Online DBA Traning, SQL Remote Training, Remote SQL Supports, DBA Experts"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-5",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "LET'S TALK!",
+          "text": "For more information call <b>&nbsp;+91-960-015-3444 </b>or send an e-mail to<b> info@geopits.com</b>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"tel:+91-960-015-3444\" data-toolbar=\"-mbrBtnMove\">CALL US NOW</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-article P": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-d",
+          "_params": {
+            "showCaption": "noCaption",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showMeta": false,
+            "darkBackground": false
+          },
+          "title": "GET IN TOUCH WITH US",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>GeoPITS offers hands-on administration and database consulting services that will optimize any SQL Server system. We cater to companies of all sizes and industries. Irrespective of the number of instances, we have solutions and offerings that can work for you. We offer affordable solutions for both the short and long term, with on-site or remote assignments to meet your specific needs.</p><p>For more information about Geopits, please call <b>+91-960-015-3444 </b>or send an e-mail to <b>info@geopits.com</b></p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"tel:+91-960-015-3444\" data-toolbar=\"-mbrBtnMove\">CALL US NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:info@geopits.com\" data-toolbar=\"-mbrBtnMove\">EMAIL US NOW</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-c",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "<p>SHOOT YOUR QUERIES TO US.<br></p>",
+          "form": {
+            "action": "www.senthilr.com@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            },
+            "B": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "header3-e",
+          "title": "Give Us A Call &amp; Drop By, We'll Have A Cuppa Ready For You.",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "Call Us @<b> +91-960-015-3444</b>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-a",
+          "_params": {
+            "googleMap": {
+              "address": "Koramangala, Bangalore",
+              "placeId": "ChIJLfyY2E4UrjsRVq4AjI7zgRY",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "LET'S TALK BUSINESS",
+          "text": "We are friendly, &nbsp;We assure you that your call want land on a ridiculously long recorded phone message ! You will directly talk with our DBA Experts &amp; Business Heads !",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"tel:+91-960-015-3444\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "19px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/unnamed-2-150x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://geopits.com/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobile2",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GeoPITS&nbsp;</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"server.html\">SQL SERVER CONSULTING</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"training.html\">SQL SERVER TRAINING<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT US</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-7",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/unnamed%20(2)-265x226.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<b>Geo Platinum IT Services</b><b><br></b>Phone: +91-960-015-3444<br>",
+          "text2": "<p><strong>CONTACTS</strong><br></p>Inquiry:&nbsp;info@geopits.com<br><p>Sales: sales@geopits.com<br>Tech Support: support@geopits.com<br>Careers: careers@geopits.com<br><br><br></p>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>Social Links</strong></p><ul class=\"mbr-contacts__list\"><li>Facebook</li><li>Linkedin&nbsp;</li><li>Skype&nbsp;</li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Geo Platinum IT Services. . Terms of Use . Privacy Policy"
+        }
+      ]
+    },
+    "server.html": {
+      "settings": {
+        "title": "MS SQL Server Consulting",
+        "meta_descr": "Website"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "19px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-p",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/unnamed-2-150x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://geopits.com/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobile2",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GeoPITS&nbsp;</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"server.html\">SQL SERVER CONSULTING</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"training.html\">SQL SERVER TRAINING<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT US</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a></li>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-t",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-2000x1334.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "MS SQL SERVER CONSULTING",
+          "text": "GeoPITS Experts offer the best in-class MS SQL Server Consulting services, with the help of cutting edge technologies and continuous updates.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"server.html#header3-12\" data-toolbar=\"-mbrBtnMove\">KNOW MORE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>",
+          "_styles": {
+            "H1": {
+              "font-size": "46px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-12",
+          "title": "MS SQL SERVER CONSULTING",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "The best in-class consulting &amp; server outsourcing &nbsp;solutions partner."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content1-10",
+          "text": "<p><b>Why MS SQL Server ?</b></p><p>SQL Server, from Microsoft, is often the database of choice for a highly integrated platform with features to query, search, synchronize, report, and analyze your data. The business world runs on Microsoft, and SQL Server enables advanced integration with application development and business software. Organizations often choose SQL Server for this integration. SQL Server has developed effective data warehousing and business intelligence tools to help you do more with your data. The system also offers scalability through virtualization and online transaction processing.</p><p><br></p><p><b>Why Geopits ?</b></p><p>A significant portion of GeoPITS customers run SQL Server databases. These customers leave the database to us so that they can focus on their business. Whatever version of SQL Server you are running or need to upgrade to the latest version, Geopits is your source for SQL Server expertise and remote DBA operations. We have SQL Server DBA teams dedicated to remotely administer SQL Server databases and ensure 24×7 uninterrupted operation of your production environment.</p><p>Our remote SQL Server DBA services are designed to be adapted to client requirements. These flexible offerings allow you to pay a monthly service fee or pay as you go, based on the coverage level you require. Our remote DBA services include the following :</p><ul><li>Production Database availability monitoring: database up/down and relevant services.</li><li>DB server hardware monitoring: disk space, CPU and Memory utilization and server performance(relevant to the database parameters).<br></li><li>Preventive database monitoring: logs, space allocation and space management of database structure (tables, table-spaces, data files, file groups).</li><li>Database performance monitoring: cache hits and other performance parameters.</li></ul><ul><li>Fault Management and monitoring: user locks, runway processes, etc.</li></ul><ul><li>Fixing critical database problems emerging in the course of normal and abnormal operations.</li><li>Back-up process strategy: Planning, Implementation, Regular monitoring and maintenance.</li></ul><ul><li>Comprehensive real time, daily, weekly, and emergency web based reporting.</li></ul><ul><li>Response time to the database critical alerts/or emergencies within 15 to 30 minutes range.</li></ul><ul><li>Database software upgrades, fixes, patches and re-installation.</li></ul><ul><li>Light Database performance tuning and performance optimization work of existing application and SQL.</li><li>DBA Support of development community with SQL Server expertise.</li></ul><ul><li>Custom application/scripts monitoring</li></ul><ul><li>Standardized approach for disaster management and handling common failures.&nbsp;</li></ul><ul><li>Effective distributed database management system</li></ul><p><br></p><p><b>We provide three catagiries of Support,</b></p><ul><li><b>PLATINUM</b></li></ul><p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>&nbsp;&nbsp;All the above services + 24 * 7 Support + Dedicated DBA<br></p><ul><li><b>GOLD</b></li></ul><p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>&nbsp;&nbsp;All the above Services + 8 * 5 Support + Dedicated DBA<br></p><ul><li><b>SILVER</b></li></ul><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All the above Services + 8 * 5 Support + Shared DBA</p><p><br></p><p>Contact us to receive a price estimate for your corporate DBA service plan needs.<br></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-11",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"about.html\" data-toolbar=\"-mbrBtnMove\">READ ABOUT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-13",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "LET'S TALK BUSINESS",
+          "text": "We are friendly, &nbsp;We assure you that your call want land on a ridiculously long recorded phone message ! You will directly talk with our DBA Experts &amp; Business Heads !",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-q",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/unnamed%20(2)-265x226.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<b>Geo Platinum IT Services</b><b><br></b>Phone: +91-960-015-3444<br>",
+          "text2": "<p><strong>CONTACTS</strong><br></p>Inquiry:&nbsp;info@geopits.com<br><p>Sales: sales@geopits.com<br>Tech Support: support@geopits.com<br>Careers: careers@geopits.com<br><br><br></p>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>Social Links</strong></p><ul class=\"mbr-contacts__list\"><li>Facebook</li><li>Linkedin&nbsp;</li><li>Skype&nbsp;</li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-r",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Geo Platinum IT Services. . Terms of Use . Privacy Policy"
+        }
+      ]
+    },
+    "trainingonline.html": {
+      "settings": {
+        "title": "MS SQL Online Training",
+        "meta_descr": "Website"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "19px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-15",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/unnamed-2-150x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://geopits.com/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobile2",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GeoPITS&nbsp;</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"server.html\">SQL SERVER CONSULTING</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"training.html\">SQL SERVER TRAINING<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT US</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a></li>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "header1-16",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "MS SQL SERVER -&nbsp;ONLINE TRAINING",
+          "text": "We offer a dedicated &amp; customized training solution catering to your needs &amp; processes through the vast online medium to learn at your own pace.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"trainingonline.html#header3-17\" data-toolbar=\"-mbrBtnMove\">KNOW MORE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-17",
+          "title": "MS SQL SERVER - ONLINE TRAINING",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "The best in-class server based online training solutions partner."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content1-18",
+          "text": "<p>Online Training is similar to a web meeting / e-conference. Our online training sessions are very much interactive. We assure you the quality of Network and nature of training. The practical examples that we discuss are sure to make you feel better with the growing demands of technology day by day and experience our world class training. Clear understanding of the subject is provided with diagrammatic presentations and practical scenarios. We provide sample Case Studies and Tasks on day-to-day basis for best results. Each module is practically shown with good number of examples until you understand. You can question the trainer any time during the session.</p><p><br></p><p>Our trainings sessions are completely practical. We owe you the quality of training that we commit. Every lecture is demonstrated practically with LIVE examples. We also provide you the related Presentations and additional practice documents and help you to get confident on the subject that you learned. If you miss any session, we can send you the Recorded Version of the specific concept(s).&nbsp;<br></p><p><br></p><p><b>Perks</b></p><ul><li>You can approach us anytime for your doubts during the training and practical implementation. </li><li>You can contact us for your doubts while you are practicing or after the sessions. We are glad to assist you. We provide material along with sample scenarios for each module.</li><li>Demo sessions available</li></ul><p><b><br></b></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-19",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"about.html\" data-toolbar=\"-mbrBtnMove\">READ ABOUT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1a",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "LET'S TALK BUSINESS",
+          "text": "We are friendly, &nbsp;We assure you that your call want land on a ridiculously long recorded phone message ! You will directly talk with our DBA Experts &amp; Business Heads !",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://geopits.com/\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/unnamed%20(2)-265x226.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<b>Geo Platinum IT Services</b><b><br></b>Phone: +91-960-015-3444<br>",
+          "text2": "<p><strong>CONTACTS</strong><br></p>Inquiry:&nbsp;info@geopits.com<br><p>Sales: sales@geopits.com<br>Tech Support: support@geopits.com<br>Careers: careers@geopits.com<br><br><br></p>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>Social Links</strong></p><ul class=\"mbr-contacts__list\"><li>Facebook</li><li>Linkedin&nbsp;</li><li>Skype&nbsp;</li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1c",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Geo Platinum IT Services. . Terms of Use . Privacy Policy"
+        }
+      ]
+    },
+    "trainingcorporate.html": {
+      "settings": {
+        "title": "MS SQL Server Corporate Training",
+        "meta_descr": "Website"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "19px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1d",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/unnamed-2-150x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://geopits.com/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobile2",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GeoPITS&nbsp;</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"server.html\">SQL SERVER CONSULTING</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"training.html\">SQL SERVER TRAINING<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT US</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a></li>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "header1-1e",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "MS SQL SERVER - CORPORATE TRAINING",
+          "text": "GeoPITS experts offer customized training solutions catering to your needs &amp; processes in a practical way that best suits your organization.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"trainingcorporate.html#header3-1f\" data-toolbar=\"-mbrBtnMove\">KNOW MORE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1f",
+          "title": "MS SQL SERVER - CORPORATE TRAINING",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "The best in-class server based online training solutions partner."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content1-1g",
+          "text": "<p>GeoPITS SQL Server training is 100% custom. We can mix and match SQL Server topics based on your needs. The most sought after training module is to cover multiple SQL Server DBA topics right from installation up till complex topics such as backups, high availability, performance tuning and more. Below are some of the most popular training topics, but you have the ability to select topics based on your needs.</p><p><br></p><ul><li>SQL Server End-to-end Training</li><li>SQL Server DBA Training</li><li>SQL Server Developer Training</li><li>SQL Server Integration Services Training</li><li>SQL Server Performance Tuning Training</li><li>SQL Server Upgrade Training</li><li>SQL Server Mentoring</li></ul><p><br></p><p>We also have the ability to provide training in earlier versions of SQL Server. So if you just inherited a SQL Server 2005 platform and need to get up to speed, we can help you. Our team has expertise on almost all versions of MS SQL Server and we can help you to excel!&nbsp;</p><p><br></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1h",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"about.html\" data-toolbar=\"-mbrBtnMove\">READ ABOUT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1i",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "LET'S TALK BUSINESS",
+          "text": "We are friendly, &nbsp;We assure you that your call want land on a ridiculously long recorded phone message ! You will directly talk with our DBA Experts &amp; Business Heads !",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1j",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/unnamed%20(2)-265x226.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<b>Geo Platinum IT Services</b><b><br></b>Phone: +91-960-015-3444<br>",
+          "text2": "<p><strong>CONTACTS</strong><br></p>Inquiry:&nbsp;info@geopits.com<br><p>Sales: sales@geopits.com<br>Tech Support: support@geopits.com<br>Careers: careers@geopits.com<br><br><br></p>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>Social Links</strong></p><ul class=\"mbr-contacts__list\"><li>Facebook</li><li>Linkedin&nbsp;</li><li>Skype&nbsp;</li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1k",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Geo Platinum IT Services. . Terms of Use . Privacy Policy"
+        }
+      ]
+    },
+    "trainingclass.html": {
+      "settings": {
+        "title": "MS SQL Server Classroom Training",
+        "meta_descr": "Website"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "19px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1l",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/unnamed-2-150x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://geopits.com/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobile2",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GeoPITS&nbsp;</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"server.html\">SQL SERVER CONSULTING</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"training.html\">SQL SERVER TRAINING<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT US</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a></li>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "header1-1m",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-2000x1333.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "MS SQL SERVER - CLASSROOM TRAINING",
+          "text": "Unleash that deeper potential inside you with our classroom training program in a practical learning environment. Learn from the best experts in the Industry.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"trainingclass.html#header3-1n\" data-toolbar=\"-mbrBtnMove\">KNOW MORE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1n",
+          "title": "MS SQL SERVER - CLASSROOM TRAINING",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "The best in-class server based online training solutions partner."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "content1-1o",
+          "text": "<p>GeoPITS enhances your SQL Server training class with instructors who have extensive MS SQL Server training experience. With instructors who have been there, real, working professionals who can teach your classes from a unique perspective, we can assure to provide you a worthy hands-on experience during the training period.&nbsp;</p><p><br></p><p>With personalized hands-on training and followup mentoring, you can guarantee that your training investment provides the maximum benefit. We ensure that we maximize the students learning experience and we also offer supplementary mentoring material.</p><p><br></p><p>The training modules are customized and affordable for students based on their field of work, years of experience and professional requirement. Hence we can guarantee that the SQL Server training class which you undertake, would be tailor-made for your requirement - be it a fresher who has just passed out of college or a working professional who is looking to enhance the skill set.</p><p><br></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1p",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"about.html\" data-toolbar=\"-mbrBtnMove\">READ ABOUT US</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1q",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "LET'S TALK BUSINESS",
+          "text": "We are friendly, &nbsp;We assure you that your call want land on a ridiculously long recorded phone message ! You will directly talk with our DBA Experts &amp; Business Heads !",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1r",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/unnamed%20(2)-265x226.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<b>Geo Platinum IT Services</b><b><br></b>Phone: +91-960-015-3444<br>",
+          "text2": "<p><strong>CONTACTS</strong><br></p>Inquiry:&nbsp;info@geopits.com<br><p>Sales: sales@geopits.com<br>Tech Support: support@geopits.com<br>Careers: careers@geopits.com<br><br><br></p>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>Social Links</strong></p><ul class=\"mbr-contacts__list\"><li>Facebook</li><li>Linkedin&nbsp;</li><li>Skype&nbsp;</li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1s",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Geo Platinum IT Services. . Terms of Use . Privacy Policy"
+        }
+      ]
+    },
+    "training.html": {
+      "settings": {
+        "title": "Geopits Training Services",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-20",
+          "_params": {
+            "imageSize": "23",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/training-600x433.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "MS SQL SERVER TRAINING",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "We offer professional MS SQL Server Training by Microsoft Certified professionals in various forms and methods suitable for your organisation. Scroll to know more.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"training.html#features1-1z\" data-toolbar=\"-mbrBtnMove\">EXPLORE MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "features1-1z",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showHeader": true,
+            "showSubheader": false,
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true
+          },
+          "headerAlign": "left",
+          "header": "OUR TRAINING PROGRAMS",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pexels-photo-600x400.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "MS SQL SERVER<br>ONLINE TRAINING PROGRAM",
+          "caption1": "We offer a dedicated &amp; customized training solution catering to your needs &amp; processes through the vast online medium to learn at your own pace.",
+          "button1": "<a data-app-btn=\"true\" href=\"trainingonline.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">KNOW MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "MS SQL SERVER<br>CORPORATE TRAINING PROGRAM",
+          "caption2": "GeoPITS experts offer customized training solutions catering to your needs &amp; processes in a practical way that best suits your organization.<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"trainingcorporate.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">KNOW MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pexels-photo-2000x1333.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "MS SQL SERVER<br>CLASSROOM TRAINING PROGRAM",
+          "caption3": "Unleash that deeper potential inside you with our classroom training program in a practical learning environment. Learn from the best experts in the Industry. ",
+          "button3": "<a data-app-btn=\"true\" href=\"trainingclass.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">KNOW MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "UNLIMITED WEBSITES",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"http://geopits.com/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-article": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-22",
+          "_params": {
+            "showCaption": "noCaption",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showMeta": false,
+            "darkBackground": false
+          },
+          "title": "JUST FOR YOU PROGRAM",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "In case you are looking for a customized training programme, Is that possible? Yes, just drop us a mail, we will get back to you in a jiffy!",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CUSTOMIZED FOR YOU!</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1w",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "LET'S TALK BUSINESS",
+          "text": "We are friendly, &nbsp;We assure you that your call want land on a ridiculously long recorded phone message ! You will directly talk with our DBA Experts &amp; Business Heads !",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "19px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1t",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/unnamed-2-150x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://geopits.com/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobile2",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GeoPITS&nbsp;</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"server.html\">SQL SERVER CONSULTING</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"training.html\">SQL SERVER TRAINING<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT US</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1u",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/unnamed%20(2)-265x226.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<b>Geo Platinum IT Services</b><b><br></b>Phone: +91-960-015-3444<br>",
+          "text2": "<p><strong>CONTACTS</strong><br></p>Inquiry:&nbsp;info@geopits.com<br><p>Sales: sales@geopits.com<br>Tech Support: support@geopits.com<br>Careers: careers@geopits.com<br><br><br></p>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>Social Links</strong></p><ul class=\"mbr-contacts__list\"><li>Facebook</li><li>Linkedin&nbsp;</li><li>Skype&nbsp;</li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1v",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Geo Platinum IT Services. . Terms of Use . Privacy Policy"
+        }
+      ]
+    },
+    "about.html": {
+      "settings": {
+        "title": "About Geopits",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-2d",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-2000x1364.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "ABOUT GEOPITS",
+          "text": "Wanna know the story of how we built an awesome DBA Experts Union ?",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"http://geopits.com/\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2g",
+          "title": "ABOUT GEO PLATINUM IT SERVICES",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "Hear our story!"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2h",
+          "text": "<p>GeoPITS, founded in 2013 by a team of SQL Server Database Administrators (DBAs) and SQL Server Developers skilled at creating customized Microsoft SQL Server database solutions for any business. As SQL Server DBA consultants, we deliver efficiency-enhancing SQL Server database solutions.</p><p><br></p><p>We are experts at SQL Server database administration, performance tuning, database problem-solving and in-depth SQL Server Database training. Combined with an understanding of business goals and effective project management, Geopits delivers complete SQL Server solutions with the following perks:</p><p><br></p><ul><li>Focus on the details and delivering comprehensive solutions.</li><li>Listen to you to understand your business and technology needs.&nbsp;</li><li>Extensive project management experience to ensure success for a project of one or a large team.</li><li>Knowledge in integrating multiple sets of tools.</li><li>Recognize SQL Server as the core for many business critical applications.</li><li>Expertise with the latest technology to optimize databases&nbsp;</li><li>Deliver solutions for short to long term projects.</li><li>Educated, experienced and well trained team.</li></ul><p><br></p>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-26",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "LET'S TALK BUSINESS",
+          "text": "We are friendly, &nbsp;We assure you that your call want land on a ridiculously long recorded phone message ! You will directly talk with our DBA Experts &amp; Business Heads !",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "19px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-27",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/unnamed-2-150x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://geopits.com/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobile2",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GeoPITS&nbsp;</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"server.html\">SQL SERVER CONSULTING</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"training.html\">SQL SERVER TRAINING<br></a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT US</a></li>  ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact Geopits.html\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-28",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/unnamed%20(2)-265x226.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "#bottom",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "http://geopits.com/",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<b>Geo Platinum IT Services</b><b><br></b>Phone: +91-960-015-3444<br>",
+          "text2": "<p><strong>CONTACTS</strong><br></p>Inquiry:&nbsp;info@geopits.com<br><p>Sales: sales@geopits.com<br>Tech Support: support@geopits.com<br>Careers: careers@geopits.com<br><br><br></p>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>Social Links</strong></p><ul class=\"mbr-contacts__list\"><li>Facebook</li><li>Linkedin&nbsp;</li><li>Skype&nbsp;</li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-29",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Geo Platinum IT Services. . Terms of Use . Privacy Policy"
+        }
+      ]
+    }
+  }
+}
