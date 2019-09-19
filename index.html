@@ -60,6 +60,8 @@ drift.load('6bbeumamfv5b');
   ga('send', 'pageview');
 
 </script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
 </head>
 <body>
 <section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--transparent mbr-navbar--sticky mbr-navbar--auto-collapse" id="ext_menu-0">
@@ -502,11 +504,12 @@ drift.load('6bbeumamfv5b');
                         <div data-form-alert="true">
                             <div class="hide" data-form-alert-success="true">Thanks for filling out the form!</div>
                         </div>
-                        <form class="mbr-form" action="http://geopits.com//" method="post" data-form-title="SUBSCRIBE TO OUR NEWSLETTER FOR DBAs">
-                            <input type="hidden" value="72Nu2D6i4Up6bVBkUzRaIEf19eWdbo6SVSngk9gCLRB33CM5yBPSN/dQwB0/DAqMvcsrvIKfNfHadqubXp2zyW33LqTrkLYPPAEJwHlr+X3N4ZIOTeGD9zQDNLkFLtv2" data-form-email="true">
+                        <form class="mbr-form" id="newsletter_form">
                             <div class="mbr-form__left">
                                 <input type="email" class="form-control" name="email" required="" placeholder="Enter Your Email Address..." data-form-field="Email">
                             </div>
+                                    <div class="g-recaptcha" data-sitekey="6LcfFbkUAAAAAD92jFHOxy5MAlWLznuUQTQoa75l"></div>
+
                             <div class="mbr-form__right mbr-buttons mbr-buttons--no-offset mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-danger">SUBSCRIBE</button></div>
                         </form>
                     </div>
@@ -577,6 +580,13 @@ drift.load('6bbeumamfv5b');
         </div>
     </div>
 </footer>
+    <script src="https://static.formx.stream/tracker/v1/bundle.js"></script>
+<script>
+var formx = FormX.set()
+formx.trackProject('geopits_c383ed6d-1a5a-4a36-9b98-c7bc0f7c2202')
+formx.trackForm('newsletter_7f6adbd9-f3b7-4236-97c4-a639cc402016', 'newsletter_form')
+formx.start()
+</script>
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
