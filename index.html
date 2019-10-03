@@ -499,18 +499,34 @@ drift.load('6bbeumamfv5b');
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
                         <div class="mbr-header mbr-header--center mbr-header--std-padding">
-                            <h2 class="mbr-header__text">SUBSCRIBE TO OUR NEWSLETTER FOR DBAs</h2>
+                            <h2 class="mbr-header__text">SHOOT YOUR QUERIES TO US.</h2>
                         </div>
                         <div data-form-alert="true">
                             <div class="hide" data-form-alert-success="true">Thanks for filling out the form!</div>
                         </div>
                         <form class="mbr-form" id="newsletter_form">
-                            <div class="mbr-form__left">
+                            <!--div class="mbr-form__left">
                                 <input type="email" class="form-control" name="email" required="" placeholder="Enter Your Email Address..." data-form-field="Email">
-                            </div>
-                                    <div class="g-recaptcha" data-sitekey="6LcfFbkUAAAAAD92jFHOxy5MAlWLznuUQTQoa75l"></div>
+                            </div-->
 
-                            <div class="mbr-form__right mbr-buttons mbr-buttons--no-offset mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-danger">SUBSCRIBE</button></div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="7" placeholder="Message" data-form-field="Message"></textarea>
+                            </div>
+
+
+                            <!--div class="g-recaptcha" data-sitekey="6LcfFbkUAAAAAD92jFHOxy5MAlWLznuUQTQoa75l"></div-->
+
+                            <div class="mbr-form_right mbr-buttons mbr-buttons--no-offset mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-danger">SUBMIT</button></div>
                         </form>
                     </div>
                 </div>
